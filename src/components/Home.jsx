@@ -1,14 +1,19 @@
 import React from 'react';
 import PatronPhoto from '../assets/PatronPhoto.jpg';
-import SwahiliMassFlyer from '../assets/SwahiliMassFlyer.jpg';
+import JuneMass from '../assets/JuneMass.jpg';
 import SifuniJinaLake from '../assets/SifuniJinaLake.jpg';
 import drum1 from '../assets/drum1.png';
 ('use client');
 const Home = () => {
   return (
     <>
+      <br></br>
+      <br></br>
+      <h1 className='text-xl tracking-tight font-extrabold text-gray-800 sm:txt-3xl md:text-4xl'>
+        <span className='block text-center xl:inline'>Welcome-Karibu</span>
+      </h1>{' '}
       <div className='mt-12 grid grid-cols-3  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4'>
-        <div className=' mx-2 py-2 my-2 border border-gray-200 col-span-2 bg-red-900 text-lg text-white'>
+        <div className=' mx-2 py-2 my-2 border border-gray-200 col-span-2 bg-white-600 text-lg text-blk'>
           <img className=' ' src={PatronPhoto} />
           <span className='grid1-item'>
             <h1 className='mb-2  text-xl font-medium leading-tight'>
@@ -53,8 +58,8 @@ const Home = () => {
             <h5 className='mb-2 text-2xl font-bold tracking-tight text-white-500 dark:text-white-400'>
               Announcements
             </h5>
-            <img className='px-2 ' src={SwahiliMassFlyer} />
-            <p>Please join us for our next Swahili Mass on April 28, 2024</p>
+            <img className='px-2 ' src={JuneMass} />
+            <p>Please join us for our next Swahili Mass on June 23, 2024</p>
             <p>
               Swahili Massess are held on 4th Sundays of even months, except for
               Dec.

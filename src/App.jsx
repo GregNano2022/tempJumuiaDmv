@@ -12,6 +12,7 @@ import GetInvolved from './components/GetInvolved';
 import Donations from './components/Donations';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import TopGallery from './components/TopGallery';
 import { Carousel } from 'flowbite-react';
 
 const App = () => {
@@ -28,19 +29,22 @@ const App = () => {
         <div id='Home'>
           <Home />
         </div>
-        <div id='Who We Are'>
+        <div id='TopGallery'>
+          <TopGallery />
+        </div>
+        <div id='WhoWe re'>
           <WhoWeAre />
+        </div>
+        <div id='GoalsAndObjectives'>
+          <GoalsAndObjectives />
         </div>
         <div id='WorshipEvents'>
           <WorshipEvents />
         </div>
-        <div id='Goals and Objectives'>
-          <GoalsAndObjectives />
-        </div>
-        <div id='Swahili Masses'>
+        <div id='SwahiliMasses'>
           <SwahiliMasses />
         </div>
-        <div id='Get Involved'>
+        <div id='GetInvolved'>
           <GetInvolved />
         </div>
         <div id='Donations'>
@@ -52,9 +56,10 @@ const App = () => {
         <div id='Contact'>
           <Contact />
         </div>
+        <div id='Footer'>
+          <Footer />
+        </div>
       </main>
-
-      <Footer />
     </>
   );
 };

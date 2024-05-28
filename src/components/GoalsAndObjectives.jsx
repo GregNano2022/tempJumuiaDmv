@@ -1,13 +1,15 @@
 import React from 'react';
-import StandingSaint from '../assets/StandingSaint.png';
+import FatherPulpit from '../assets/FatherPulpit.jpg';
 const GoalsAndObjectives = () => {
   return (
     <>
+      <br></br>
+      <br></br>
       <h1 className='text-xl tracking-tight font-extrabold text-gray-800 sm:txt-3xl md:text-4xl'>
         <span className='block text-center xl:inline'>Mission And Vision</span>
-      </h1>{' '}
-      <div className='bg-red-900 mt-16 text-white'>
-        <div className='container mx-auto py-8 px-4 md:px-0 md:flex md:justify-center md:items-center'>
+      </h1>
+      <div className='bg-white-600 mt-16 text-black'>
+        <div className='container mx-auto px-4 md:px-0 md:flex md:justify-center md:items-center'>
           <div className='md:w-1/2 lg:w-1/3 md:mr-8'>
             <h1 className='text-3xl font-bold mb-4'>Mission</h1>
             <p className='text-lg mb-4'>
@@ -31,7 +33,7 @@ const GoalsAndObjectives = () => {
           </div>
           <div className='md:w-1/2 lg:w-2/3 mt-8 md:mt-0'>
             <img
-              src={StandingSaint}
+              src={FatherPulpit}
               alt='..'
               className='w-full h-full object-cover'
             ></img>

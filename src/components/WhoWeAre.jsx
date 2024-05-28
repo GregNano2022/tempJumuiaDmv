@@ -18,28 +18,6 @@ const WhoWeAre = () => {
   return (
     <>
       <div>
-        <div className='flex flex-auto overflow-hidden rounded-lg md:h-96'>
-          <Carousel>
-            <img src={PastorsInGreenRobes} className='' alt='..' />
-
-            <img src={Pews} className='' alt='..' />
-
-            <img src={Pastors} className='h-full' alt='..' />
-
-            <img src={PulpitReading} className='h-full' alt='..' />
-
-            <img src={FatherBlessing} className='h-full' alt='..' />
-
-            <img src={ChildrenChoir} className='h-full w-full' alt='..' />
-            <img src={Bishop} className='h-full' alt='..' />
-
-            <img src={BishopPews} className='h-full' alt='..' />
-
-            <img src={Basilica} className='h-full' alt='..' />
-            <img src={SeminarianCake} className='h-full' alt='..' />
-          </Carousel>
-        </div>
-
         <section className='sm:mt-6 lg:mt-8 mt-12 max-w-7xlmx-auto px-4 sm:px-6 lg:px-8'>
           <div className='my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row'>
             <div className='sm:text-center lg:text-left'>
@@ -97,7 +75,7 @@ const WhoWeAre = () => {
             <div className='lg:inset-y-0 lg:right-0 lg:w-1/2 my-4'>
               <img
                 className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-                src={AsisiGarden}
+                src={Pews}
                 alt='img'
               />
             </div>

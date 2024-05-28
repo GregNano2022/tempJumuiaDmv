@@ -14,9 +14,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='justify-right  bg-teal-500 '>
+      <div className=' bg-teal-500 '>
         <div className='flex-shrink-0 text-center justify-center ml-6 cursor-pointer'>
-          <img className='h-1/5  inline' src={StFrancis} alt='logo' />
           <h2 className='text-xl '>
             ESTABLISHED ON JUNE 24TH 2014. BLESSED ON APRIL 22ND 2018.
           </h2>
@@ -50,7 +49,7 @@ const Navbar = () => {
             <ul className='flex flex-rap gap-5 mx-3'>
               <div>
                 <li className='text-white '>
-                  <NavLink to='/About'>Home</NavLink>
+                  <NavLink to='/Home'>Home</NavLink>
                 </li>
               </div>
               <div>
@@ -61,6 +60,11 @@ const Navbar = () => {
               <div>
                 <li className='text-white'>
                   <NavLink to='/GoalsAndObjectives'>Objectives</NavLink>
+                </li>
+              </div>
+              <div>
+                <li className='text-white'>
+                  <NavLink to='/WorshipEvents'>Worship Events </NavLink>
                 </li>
               </div>
               <div>
@@ -78,20 +82,22 @@ const Navbar = () => {
                   <NavLink to='/Donations'>Donations/Toa Sadaka</NavLink>
                 </li>
               </div>
+
               <div>
                 <li className='text-white'>
-                  <NavLink to='/SocialEventsGallery'>Worship Events </NavLink>
-                </li>
-              </div>
-              <div>
-                <li className='text-white'>
-                  <NavLink to='/WorshipEventsGallery'>Social Events</NavLink>
+                  <NavLink to='/SocialEvents'>Social Events</NavLink>
                 </li>
               </div>
 
               <div>
                 <li className='text-white'>
                   <NavLink to='/Contact'>Contact</NavLink>
+                </li>
+              </div>
+
+              <div>
+                <li className='text-white'>
+                  <NavLink to='/Footer'>Footer</NavLink>
                 </li>
               </div>
             </ul>
