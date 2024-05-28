@@ -29,7 +29,7 @@ const TopGallery = () => {
     <>
       <section className='grid grid-cols-2 sm:mt-6 lg:mt-8 mt-12 max-w-7xlmx-auto px-4 sm:px-6 lg:px-8'>
         <div className='col-span-2 ml-3 '>
-          <Carousel className='h-96 w-96'>
+          <Carousel className='h-screen w-screen'>
             <img src={PastorsInGreenRobes} className='' alt='..' />
 
             <img src={PastorsInGreenRobes} className='' alt='..' />
@@ -38,28 +38,28 @@ const TopGallery = () => {
 
             <img src={Pastors} className='' alt='..' />
 
-            <img src={PulpitReading} className='' alt='..' />
+            <img src={PulpitReading} className='h-screen w-screen' alt='..' />
 
             <img src={FatherBlessing} className='' alt='..' />
 
-            <img src={ChildrenChoir} className='' alt='..' />
+            <img src={ChildrenChoir} className='h-screen w-screen' alt='..' />
 
             <img src={Offering2} className='' alt='..' />
 
             <img src={Offring} className='' alt='..' />
 
-            <img src={Sister} className='' alt='..' />
+            <img src={Sister} className='h-screen w-screen' alt='..' />
 
             <img src={SisterAltar} className='' alt='..' />
             <img src={Procession} className='' alt='..' />
-            <img src={JuneMass} className='' alt='..' />
+            <img src={JuneMass} className='h-screen w-screen' alt='..' />
 
             <img src={Procession2} className='' alt='..' />
-            <img src={Altar} className='' alt='..' />
-            <img src={AltarReading} className='' alt='..' />
-            <img src={MassExit} className='' alt='..' />
+            <img src={Altar} className='h-screen w-screen' alt='..' />
+            <img src={AltarReading} className='h-screen w-screen' alt='..' />
+            <img src={MassExit} className='h-screen w-screen' alt='..' />
 
-            <img src={KCA} className='' alt='..' />
+            <img src={KCA} className='h-screen w-screen' alt='..' />
           </Carousel>
         </div>
       </section>
